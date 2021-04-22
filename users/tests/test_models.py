@@ -4,7 +4,7 @@ from accounts import models
 from unittest.mock import patch
 
 
-def sample_user(email='test@ay.com', password='testpass'):
+def sample_user(email='test@aygit.com', password='testpass'):
     """Create a sample user"""
     return get_user_model().objects.create_user(email, password)
 
